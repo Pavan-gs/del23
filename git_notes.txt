@@ -1,0 +1,73 @@
+Github
+----------
+
+Cloud based secured storage repository
+Collaborate & version control
+
+Centralized VCS
+Distributed VCS
+
+Git --> Desktop based application/repository
+
+Github --> Cloud based web platform
+
+Fork a repository --> To copy a repository in your account
+
+Download/clone --> To copy the repository in your local machine  
+
+Pull request to notify about the changes and merge pull request to approve/adopt the changes made
+
+Git commands
+--------------------
+
+Right click and git bash here
+start--> git bash--> navigate to the folder
+
+mkdir <folder_name>
+cd folder_name
+
+To create a file from gitbash
+
+vi <file_name>
+i --> insert
+esc+colon wq --> To save & exit (esc+ :wq)
+
+git add <file_name>
+git commit  -m "msg"
+git status
+
+git init --> To initialise a folder as a git repository
+
+git remote add origin "https url of github/remote repo" --> To add a remote repo
+
+git pull origin main  --allow-unrelated-histories --> To pull files from remote repo to local repo
+
+git fetch --> To pull the files without merging
+
+git push origin master
+
+git tag <tag_id>
+git tag --> To show the tags
+git show <tag_id>
+
+git clean  -f   --> To remove untracked files 
+git log -n  --> To show limited number of last commits 
+git log --oneline  --> To show output as one commit per line / overview of project
+
+git stash --> If you want to save a file without committing it into git
+(Stashed commit)
+
+git branch --> To list the pwd
+
+
+
+
+
+
+
+
+
+
+
+git checkout  -b  <b_name>
+
