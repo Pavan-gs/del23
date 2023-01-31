@@ -401,13 +401,19 @@ SELECT MAX(SALARY)
 FROM EMPLOYEES
 WHERE SALARY < (SELECT MAX(SALARY) FROM EMPLOYEES WHERE SALARY <(SELECT MAX(SALARY) FROM EMPLOYEES))
 
+1)The company is planning a recruitment drive and wants to identify the days of the week on which 20 or more staff members were hired. Your report must list the days and the number of employees hired on each of them.
 
+2) Fetch the EMPLOYEE_ID, JOB_ID, DEPARTMENT_ID, LAST_NAME, HIRE_DATE, and END_DATE values for all rows retrieved using a pure natural join. Alias the EMPLOYEES table
 
+3) Produce a report with one column aliased as Managers. with each ach row containing a sentence of the format FIRST_NAME LAST_NAME is manager of the DEPARTMENT_NAME
 
+4) You are required to retrieve the employee’s LAST_NAME, EMPLOYEE_ID, manager’s LAST_NAME, and employee’s DEPARTMENT_ID for the rows with DEPARMENT_ID values of 10, 20, or 30. Alias the EMPLOYEES table as E and the second instance of the EMPLOYEES table as M. Sort the results based on the DEPARTMENT_ID column
 
+5) You are required to retrieve the DEPARTMENT_NAME and DEPARTMENT_ID values for those departments to which no employees are currently assigned.
 
+6) A query that uses subqueries in the column projection list. – Write a query a query to retrieve todays date, No. of departments aliased as dept_count and no of employees in the employees table aliased as Emp_count. The query should report on the current numbers of departments and staff as on date
 
-
+7) Write a query to identify all the employees who are managers. 
 
 
 
